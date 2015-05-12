@@ -145,10 +145,10 @@ TARGET_CUSTOM_WIFI := ../../device/huawei/msm7x27a-common/libhardware_legacy/wif
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Enable dex-preoptimization to speed up first boot sequence
-WITH_DEXPREOPT := true
-WITH_DEXPREOPT_PIC := true
-DONT_DEXPREOPT_PREBUILTS := true
-WITH_DEXPREOPT_COMP=false
+#WITH_DEXPREOPT := true
+#WITH_DEXPREOPT_PIC := true
+#DONT_DEXPREOPT_PREBUILTS := true
+#WITH_DEXPREOPT_COMP=false
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true

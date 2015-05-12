@@ -181,10 +181,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.bg_apps_limit=16
     
 # FM Radio
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.fm.analogpath.supported=false \
-    ro.fm.transmitter=false \
-    ro.fm.mulinst.recording.support=false
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.fm.analogpath.supported=false \
+#    ro.fm.transmitter=false \
+#    ro.fm.mulinst.recording.support=false
 
 # Stagefright
 PRODUCT_PROPERTY_OVERRIDES += \
